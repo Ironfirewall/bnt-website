@@ -1,0 +1,85 @@
+body{
+    color: white;
+    /* color: darkblue; */
+    /* color: black; */
+    background-color: #001755;
+    background-color: cornflowerblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-background{
+    /* background-image: url('../images/circuit_board.jpg'); */
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/bnt_background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.frosted-effect {
+    /* width: 30rem; */
+    height: 52rem;
+    /* height: 120%; */
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+  }
+  
+  .frosted-effect:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5); */
+    /* filter: blur(2px); */
+    filter: blur(4px);
+    margin: -20px;
+  }
+
+.logo-row{
+  margin-top: 12%;
+}
+
+.main-row{
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.main-text{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.sub-text{
+  font-size: 2rem;
+}
+
+.cone-row{
+  margin-bottom: 3%;
+}
+
+.email{
+  color: white;
+}
+
+.footer-row{
+  /* margin-top: 65px;
+  margin-bottom: 80px; */
+  margin-top: 55px;
+  margin-bottom: 35px;
+}
+
+.footer{
+  background-color: #001755;
+  background-color: cornflowerblue;
+  height: 100%;
+  font-size: 11pt;
+}
