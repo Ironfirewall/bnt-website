@@ -53,6 +53,11 @@ body{
     margin-bottom: 1%;
 }
 
+.bnt-main-title{
+  font-size: 4rem; 
+  font-weight: bold;
+}
+
 .main-text{
     font-size: 3rem;
     font-weight: bold;
