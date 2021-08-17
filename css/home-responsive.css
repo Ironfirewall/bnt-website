@@ -27,6 +27,10 @@
       .frosted-effect{
           height: 38rem;
       }
+    
+    .cell-row{
+          margin-top: 2%;
+      }
   }
 
   @media only screen and (max-width: 512px) {
