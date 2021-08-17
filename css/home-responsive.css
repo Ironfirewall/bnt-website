@@ -14,6 +14,19 @@
       .sub-text{
           font-size: 1.5rem;
       }
+
+      .main-row{
+        margin-top: 8%;
+        margin-bottom: 3%;
+      }
+
+      .cone-row{
+        margin-bottom: 5%;
+      }
+
+      .frosted-effect{
+          height: 38rem;
+      }
   }
 
   @media only screen and (max-width: 512px) {
